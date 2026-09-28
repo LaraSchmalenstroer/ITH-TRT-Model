@@ -23,7 +23,7 @@ path = "./"
 file_data = "data/tv_trx_low_replicates.csv"
 file_params = "data/fit_params_control_smooth.csv"
 file_dose_rate = "data/2026-08_initial_dose_rates_low.csv"
-file_biodb = "results/biodistribution_params.csv"
+file_biodb = "data/biodistribution_params.csv"
 
 df_low = CSV.read(path*file_data, DataFrame)
 df_params = CSV.read(path*file_params, DataFrame)
